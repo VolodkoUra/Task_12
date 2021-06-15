@@ -68,7 +68,7 @@ class MyTime:
     def __eq__(self, other):  # Сравнение времени ==
         return self.hours == other.hours and self.minutes == other.minutes and self.seconds == other.seconds
 
-    def __ne__(self, other):  # Сложение времени !=
+    def __ne__(self, other):  # Сравнение времени !=
         return self.hours != other.hours and self.minutes != other.minutes and self.seconds != other.seconds
 
     def __lt__(self, other):  # Сравнение времени <
