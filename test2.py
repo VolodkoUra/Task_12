@@ -1,4 +1,1 @@
-class MyTime:
-    __hours
-    __minutes
-    __seconda
+print((-50)%24)
